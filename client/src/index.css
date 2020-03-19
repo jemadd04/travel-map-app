@@ -11,4 +11,32 @@ body {
 .marker {
   height: 24px;
   width: 24px;
+  transform: translate(-50%, -100%);
 }
+
+.error {
+  color: #f05305;
+}
+
+.popup {
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.entry-form label,
+.entry-form input,
+.entry-form textarea {
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+}
+
+/* STOPPED AT 3:03:55 -- GO BACK A FEW MINUTES AND UPDATE CODE FOR MARKERS. THEY KEEP MOVING. JUST DO WHAT HE DOES IN THE VIDEO WITH THE VIEWPORT ZOOM. NEXT WE'LL BE WORKING ON THE POPUP BOX WHEN YOU CLICK ON A MARKER */
